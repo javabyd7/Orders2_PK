@@ -16,7 +16,8 @@
         <property name="hibernate.use_sql_comments">true</property>
         <property name="hbm2ddl.auto">create</property>
 
-<!--        <mapping class="pl.sda.jdbc.hibernate.exrcise.entity.Customer"/>-->
+        <mapping class="pl.sda.jdbc.entity.User"/>
+        <mapping class="pl.sda.jdbc.entity.Order"/>
 
 
     </session-factory>
