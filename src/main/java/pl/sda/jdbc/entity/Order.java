@@ -67,7 +67,7 @@ public class Order {
 
     @Override
     public String toString() {
-        return "Order{" +
+        return "\nOrder{" +
                 "id=" + id +
                 ", user=" + user +
                 ", products=" + Arrays.toString(products) +
